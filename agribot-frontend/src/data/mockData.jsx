@@ -52,3 +52,8 @@ export const currentSensors = {
   ]
   
   export const carPosition = [23.2610, 77.4145]
+  
+  export const cameraDetections = [
+    { id: 1, label: 'Person', confidence: 0.94, box: { top: 25, left: 30, width: 15, height: 45 }, color: '#4ade80', time: '12:01 PM' },
+    { id: 2, label: 'Dog', confidence: 0.82, box: { top: 60, left: 65, width: 12, height: 20 }, color: '#facc15', time: '12:02 PM' },
+  ]
