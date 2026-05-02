@@ -1,0 +1,138 @@
+[2026-05-02 18:31:51] SPRAY ALERT — Diseased plant detected (100.0% confidence). Spray triggered.
+[2026-05-02 18:31:51] FIELD ALERT — Unwanted object(s) detected: person x1
+[2026-05-02 18:32:05] SPRAY ALERT — Diseased plant detected (100.0% confidence). Spray triggered.
+[2026-05-02 18:32:05] FIELD ALERT — Unwanted object(s) detected: person x1
+[2026-05-02 18:32:20] SPRAY ALERT — Diseased plant detected (100.0% confidence). Spray triggered.
+[2026-05-02 18:32:20] FIELD ALERT — Unwanted object(s) detected: person x1
+[2026-05-02 18:38:17] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:26] SPRAY ALERT — diseased detected at 94.8%. Spray triggered.
+[2026-05-02 18:38:28] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:28] SPRAY ALERT — diseased detected at 99.5%. Spray triggered.
+[2026-05-02 18:38:28] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:28] SPRAY ALERT — diseased detected at 99.8%. Spray triggered.
+[2026-05-02 18:38:28] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:29] SPRAY ALERT — diseased detected at 98.9%. Spray triggered.
+[2026-05-02 18:38:29] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:29] SPRAY ALERT — diseased detected at 98.7%. Spray triggered.
+[2026-05-02 18:38:29] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:29] SPRAY ALERT — diseased detected at 98.1%. Spray triggered.
+[2026-05-02 18:38:30] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:30] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:30] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:30] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:30] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:31] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:31] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:31] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:31] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:31] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:31] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:32] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:32] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:32] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:32] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:32] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:33] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:33] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:33] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:36] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:37] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:38] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:39] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:39] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:39] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:44] SPRAY ALERT — diseased detected at 99.9%. Spray triggered.
+[2026-05-02 18:38:44] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:45] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:45] SPRAY ALERT — diseased detected at 99.9%. Spray triggered.
+[2026-05-02 18:38:46] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:46] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:46] SPRAY ALERT — diseased detected at 99.8%. Spray triggered.
+[2026-05-02 18:38:46] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:46] SPRAY ALERT — diseased detected at 99.9%. Spray triggered.
+[2026-05-02 18:38:47] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:47] SPRAY ALERT — diseased detected at 99.9%. Spray triggered.
+[2026-05-02 18:38:47] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:48] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:48] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:48] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:49] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:49] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:49] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:50] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:51] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:51] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:51] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:51] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:52] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:52] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:52] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:38:52] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:38:52] FIELD ALERT — Unwanted objects: person x2
+[2026-05-02 18:38:52] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:10] SPRAY ALERT — diseased detected at 98.1%. Spray triggered.
+[2026-05-02 18:39:42] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:42] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:43] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:43] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:43] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:43] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:43] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:43] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:43] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:44] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:45] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:46] SPRAY ALERT — diseased detected at 99.8%. Spray triggered.
+[2026-05-02 18:39:52] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:53] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:53] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:53] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:39:57] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:39:57] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:07] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:07] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:09] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:09] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:10] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:10] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:10] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:10] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:10] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:10] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:10] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:11] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:11] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:11] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:11] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:11] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:11] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:11] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:11] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:12] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:12] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:13] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:13] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:13] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:13] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:13] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:14] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:15] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:15] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:15] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:16] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:16] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:16] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:18] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:19] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:19] SPRAY ALERT — diseased detected at 99.9%. Spray triggered.
+[2026-05-02 18:40:20] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:20] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:20] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:21] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:31] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:39] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:39] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:39] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:40] FIELD ALERT — Unwanted objects: person x1
+[2026-05-02 18:40:42] SPRAY ALERT — diseased detected at 100.0%. Spray triggered.
+[2026-05-02 18:40:42] FIELD ALERT — Unwanted objects: cat x1

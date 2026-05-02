@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { LayoutDashboard, Camera, Map, History, Stethoscope, MessageSquare, Bell } from 'lucide-react'
+import { LayoutDashboard, Camera, Map, History, Stethoscope, MessageSquare, Bell, X } from 'lucide-react'
 import './Sidebar.css'
 
 const navItems = [
@@ -27,9 +27,16 @@ const navItems = [
   },
 ]
 
-export default function Sidebar() {
+export default function Sidebar({ isOpen, onClose }) {
   return (
-    <aside className="sidebar">
+    <>
+      {isOpen && <div className="sidebar-overlay" onClick={onClose}></div>}
+      <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
+        <div className="sidebar-mobile-header">
+          <button className="sidebar-close-btn" onClick={onClose}>
+            <X size={20} />
+          </button>
+        </div>
       {navItems.map(group => (
         <div key={group.section}>
           <p className="sidebar-section">{group.section}</p>
@@ -52,5 +59,6 @@ export default function Sidebar() {
         </div>
       ))}
     </aside>
+    </>
   )
 }

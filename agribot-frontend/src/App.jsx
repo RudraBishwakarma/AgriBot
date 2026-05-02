@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
@@ -11,12 +12,18 @@ import Alerts from './pages/Alerts'
 import './App.css'
 
 export default function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
+
   return (
     <BrowserRouter>
       <div className="app-shell">
-        <Navbar />
+        <Navbar toggleMobileMenu={toggleMobileMenu} />
         <div className="app-body">
-          <Sidebar />
+          <Sidebar isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
           <main className="main-content">
             <Routes>
               <Route path="/"        element={<Dashboard />} />

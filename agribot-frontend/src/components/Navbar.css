@@ -111,3 +111,35 @@
   background: rgba(255, 255, 255, 0.05);
   border-radius: 50%;
 }
+
+.navbar-mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 16px;
+  }
+  
+  .navbar-mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-badge {
+    display: none;
+  }
+
+  .navbar-status span:last-child {
+    display: none; /* Hide "Car online" text, just keep pulse */
+  }
+
+  .navbar-right {
+    gap: 12px;
+  }
+}
