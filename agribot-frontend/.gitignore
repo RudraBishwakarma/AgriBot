@@ -24,28 +24,3 @@ dist-ssr
 *.sw?
 
 
-# Python
-__pycache__/
-*.pyc
-
-# ML models
-*.pt
-runs/
-
-# Dataset (very important)
-ml/dataset/
-
-# Logs
-*.log
-agribot_log.txt
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# VS Code
-.vscode/
-
-# Node (frontend)
-node_modules/
-dist/
