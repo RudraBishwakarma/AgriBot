@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { UploadCloud, CheckCircle, AlertTriangle, Loader2 } from 'lucide-react';
+import { analyzeFrame } from '../api/api';
 import './DiseaseChecker.css';
 
 export default function DiseaseChecker() {
@@ -37,17 +38,41 @@ export default function DiseaseChecker() {
     setIsAnalyzing(true);
     setResult(null);
 
-    // Simulate AI processing delay
-    setTimeout(() => {
+    const reader = new FileReader();
+    reader.onload = async (e) => {
+      const base64String = e.target.result.split(',')[1];
+      const data = await analyzeFrame(base64String);
+      
       setIsAnalyzing(false);
-      // Mock result
+      
+      if (data && data.classification) {
+        const isHealthy = data.classification.label === 'healthy';
+        setResult({
+          disease: isHealthy ? 'Healthy Crop' : data.classification.label,
+          confidence: Math.round(data.classification.confidence * 100),
+          severity: isHealthy ? 'None' : 'High',
+          recommendation: data.decision === 'SPRAY' ? 'Apply appropriate treatment/spray.' : 'No immediate action required. Continue monitoring.',
+        });
+      } else {
+        setResult({
+          disease: 'Analysis Failed',
+          confidence: 0,
+          severity: 'Unknown',
+          recommendation: 'Please try uploading another clear image.',
+        });
+      }
+    };
+    reader.onerror = () => {
+      setIsAnalyzing(false);
       setResult({
-        disease: 'Leaf Blight (Early Stage)',
-        confidence: 94,
-        severity: 'Medium',
-        recommendation: 'Apply copper-based fungicide and reduce irrigation for 3 days.',
+        disease: 'File Read Error',
+        confidence: 0,
+        severity: 'Unknown',
+        recommendation: 'Could not read the uploaded file.',
       });
-    }, 2500);
+    };
+    
+    reader.readAsDataURL(selectedFile);
   };
 
   return (
