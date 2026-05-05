@@ -7,7 +7,6 @@ import time
 
 dht = adafruit_dht.DHT11(board.D4)
 
-# Cleanup
 atexit.register(lambda: dht.exit())
 
 def classify(temp, hum):
@@ -23,26 +22,25 @@ def classify(temp, hum):
         return "suboptimal"
 
 def read_dht11():
-    """Returns sensor data (never returns None)"""
-
     for _ in range(3):
         try:
             temp = dht.temperature
-            hum = dht.humidity
+            hum  = dht.humidity
 
             if temp is not None and hum is not None:
                 return {
-                    "temperature": temp,
+                    "temperature_c": temp,
+                    "temperature_f": round(temp * 9/5 + 32, 1),
                     "humidity": hum,
-                    "dhtStatus": classify(temp, hum)
+                    "dht_status": classify(temp, hum)
                 }
 
         except RuntimeError:
             time.sleep(1)
 
-    # fallback (IMPORTANT)
     return {
-        "temperature": 0,
+        "temperature_c": 0,
+        "temperature_f": 0,
         "humidity": 0,
-        "dhtStatus": "error"
+        "dht_status": "error"
     }
