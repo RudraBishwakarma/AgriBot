@@ -12,7 +12,8 @@ while True:
         dht_data = read_dht11()
 
         data = {
-            "deviceId": DEVICE_ID
+            "deviceId": DEVICE_ID,
+
             # DHT11
             "temperature_c": dht_data["temperature_c"],
             "temperature_f": dht_data["temperature_f"],
