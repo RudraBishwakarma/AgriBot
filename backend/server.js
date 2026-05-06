@@ -10,25 +10,37 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// MongoDB connect
-mongoose.connect("mongodb://127.0.0.1:27017/agribot", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
-    .then(() => console.log("MongoDB Connected"))
-    .catch(err => console.log(err));
+// MongoDB connect (FIXED)
+mongoose.connect("mongodb://127.0.0.1:27017/agribot")
+    .then(() => console.log("✅ MongoDB Connected"))
+    .catch(err => console.log("❌ MongoDB error:", err));
 
 // Schema
 const sensorSchema = new mongoose.Schema({
     deviceId: String,
-    temperature: Number,
+
+    // DHT11
+    temperature_c: Number,
+    temperature_f: Number,
     humidity: Number,
-    soilMoisture: Number,
-    gasLevel: Number,
+    dht_status: String,
+
+    // Soil
+    soil_moisture_pct: Number,
+    soil_raw: Number,
+    soil_status: String,
+
+    // Gas
+    gas_ppm: Number,
+    gas_raw: Number,
+    gas_status: String,
+
+    // GPS
     gps: {
         lat: Number,
         lng: Number
     },
+
     timestamp: { type: Date, default: Date.now }
 });
 
@@ -40,7 +52,7 @@ app.post("/api/sensor", async (req, res) => {
         const newData = new Sensor(req.body);
         await newData.save();
 
-        console.log("Data received:", req.body);
+        console.log("📡 Data received:", req.body);
 
         res.status(200).json({ message: "Data saved" });
     } catch (err) {

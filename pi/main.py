@@ -4,7 +4,7 @@ import time
 import requests
 from dht11 import read_dht11
 
-SERVER_URL = "http://10.39.201.66:5000/api/sensor"
+SERVER_URL = "http://192.168.46.66:5000/api/sensor"
 DEVICE_ID = "agribot_01"
 
 while True:
@@ -12,9 +12,7 @@ while True:
         dht_data = read_dht11()
 
         data = {
-            "deviceId": DEVICE_ID,
-            "timestamp": time.strftime("%H:%M:%S"),
-
+            "deviceId": DEVICE_ID
             # DHT11
             "temperature_c": dht_data["temperature_c"],
             "temperature_f": dht_data["temperature_f"],
